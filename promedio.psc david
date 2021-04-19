@@ -1,0 +1,37 @@
+Algoritmo promedio
+	Repetir//todo lo que hay dentro del repetir se repetira hasta que n=0
+		Limpiar Pantalla // con esta función se limpiara la pantalla 
+		Escribir "Ingrese la cantidad de datos: "; //ingrasar los datos
+		Leer n; // se atribuye a n
+		
+		acum = 0; // se acumulan los datos
+		si n>0// si n mayor 0 se realiza el promedio
+			Para i<-1 Hasta n Con Paso 1 Hacer
+				Escribir "Ingrese el dato ", i, ":";
+				Leer dato;
+				acum = acum+dato;
+				
+			Fin Para
+			
+			prom = acum / n;
+			
+			Escribir "El promedio es: ", prom;
+			Escribir "Pulse una tecla para continuar"
+			Esperar Tecla
+		SiNo // si no
+			//si n es 0 entonces no se puede relizar el programa
+			si n==0
+				Escribir "Ha finalizado el programa"
+			// si n es menor que 0 no se puede realizar el programa
+			// te pide que pulses enter para poder continuar
+			SiNo
+				Escribir "No se puede realizar"
+				Escribir "Presione enter para continuar"
+				Esperar Tecla
+			FinSi
+		FinSi
+	// cuando n sea 0 se sale del programa 
+	Hasta Que n==0
+	
+	
+FinAlgoritmo
