@@ -30,7 +30,7 @@ Algoritmo promedio
 			FinSi
 			
 		FinSi
-		 //El rpoceso se repetir√° hasta  que el n=0//
+		 //El rpoceso se repetir· hasta  que el n=0//
 	Hasta Que n==0
 	
 	
