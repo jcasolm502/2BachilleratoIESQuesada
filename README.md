@@ -1,5 +1,6 @@
-# 2BachilleratoIESQuesada
-Repositorio de SW para la asignatura de 2º Bachillerato TIC en IESQuesada
+# 2Bachillerato
+Repositorio de SW para la asignatura de 2º Bachillerato
+
 Proceso Promedio
 		
 		Escribir "Ingrese la cantidad de datos:"
